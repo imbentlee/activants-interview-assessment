@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-# activants-interview-assessment
-=======
-# Interview Challenge
-
-Welcome to Activants Sushi Bar, where your journey to sushi is only just beginning!
-
-We've had a bit of trouble with our patented conveyor belt system, so before you can eat, you're going to have to help us get it working.
-
 ## Desired Outcome
 
 ![Image](sushi-saga-demo.gif)
