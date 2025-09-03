@@ -6,6 +6,34 @@
 
 Watch recording: https://drive.google.com/file/d/14s1HK1HXk0L6e57zGwKlZl7_fnlwZuMW/view?usp=sharing
 
+## What was done:
+
+#### App.js:
+- Implemented App logic for fetching "API" and parsing the response to populate the sushis
+- Implemented logic to slice the data to display 4 sushis at a time
+- Implemented logic to view next page and previous page of sushis
+- Implemented eating interation logic where user will be able to eat uneaten sushi, alerted of insufficient funds and alerted if the sushi they clicked on has already been eaten
+- Added additional function to facilitate the top up of the SushiWallet!
+
+#### Sushi.js
+- Created a boolean const as an indicator for whether the sushi has been eaten
+- Implemented frontend logic to display sushi images for sushis that were uneaten
+- Implemented alert logic for if user clicks on an eaten sushi plate
+
+#### Table.js
+- Implemented frontend logic to display an increasing stack of plates as more sushis are eaten
+- Implemented UI logic for SushiWallet! top up
+
+#### Button.js
+- Implemented a BackButton to display previous page of sushis
+
+### To run:
+1. Navigate to `activants-interview-assessment` and run `json-server --watch db.json`
+2. Navigate to [http://localhost:3000/sushis](http://localhost:3000/sushis) to confirm delivery of sushi!
+3. Navigate to `activants-interview-assessment` and run `npm install` to get node modules
+4. Run "npm start", select Y for yes when asked if you want to use another port because port 3000 will have been used by the json server
+5. Navigate to [http://localhost:3001](http://localhost:3001) to use the application
+
 ## Setup
 
 > If you do not have json-server installed, please run the following command `npm install -g json-server`
@@ -51,4 +79,3 @@ If and only if you have time, you may work on the following:
 4. Anything else!
 
 Note: If at the end of the challenge you have achieved all the functionality required but the style looks off, this is okay!
->>>>>>> bc66a8b (initial commit)
