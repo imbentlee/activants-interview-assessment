@@ -2,6 +2,7 @@
 
 ![Image](sushi-saga-demo.gif)
 
+![Video](screenRecording.mp4)
 ## Setup
 
 > If you do not have json-server installed, please run the following command `npm install -g json-server`
