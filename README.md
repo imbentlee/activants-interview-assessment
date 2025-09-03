@@ -2,7 +2,10 @@
 
 ![Image](sushi-saga-demo.gif)
 
-![Video](screenRecording.mp4)
+## Actual Outcome
+
+Watch recording: https://drive.google.com/file/d/14s1HK1HXk0L6e57zGwKlZl7_fnlwZuMW/view?usp=sharing
+
 ## Setup
 
 > If you do not have json-server installed, please run the following command `npm install -g json-server`
